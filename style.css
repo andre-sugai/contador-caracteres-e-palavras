@@ -1,0 +1,52 @@
+* {
+  font-family: helvetica;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.field {
+  width: 500px;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+label {
+  font-size: .9rem;
+}
+
+textarea {
+  width: 100%;
+  font-size: 1rem;
+  padding: .5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.counter {
+  font-size: .8rem;
+  color: #555;
+}
+
+#toggle {
+  background-color: #ffc404;
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 2px;
+  padding: 9px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+#toggle:hover {
+  background-color: #ff9f04;
+}
